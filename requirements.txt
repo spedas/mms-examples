@@ -4,3 +4,4 @@ pytplot
 bokeh
 nodejs
 pyqt5
+pyspedas
