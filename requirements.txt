@@ -1,0 +1,6 @@
+requests
+cdflib
+pytplot
+bokeh
+nodejs
+pyqt5
