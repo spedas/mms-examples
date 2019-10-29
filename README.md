@@ -1,9 +1,16 @@
 # MMS examples with pySPEDAS
 Examples of using pySPEDAS to access MMS data
+<h2>Basic</h2>
+<h3>FGM</h3>
+<p align="center">
+<a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Fluxgate%20Magnetometer%20(FGM).ipynb" target="_blank">
+<img src="plots/fgm.png?raw=true" alt="Loading MMS FGM data" width="650">
+</a>
+</p>
 
-<h3> Curlometer Technique</h3>
+<h3>Curlometer Technique</h3>
 <p align="center">
 <a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Curlometer%20Technique.ipynb" target="_blank">
-<img src="https://github.com/spedas/mms-examples/blob/master/plots/curlometer.png?raw=true" alt="Curlometer technique with MMS data" width="550">
+<img src="plots/curlometer.png?raw=true" alt="Curlometer technique with MMS data" width="650">
 </a>
 </p>
