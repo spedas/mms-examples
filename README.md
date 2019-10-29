@@ -84,3 +84,10 @@ Examples of using pySPEDAS to access MMS data
 <img src="plots/mec.png?raw=true" alt="Loading MMS MEC data" width="800">
 </a>
 </p>
+
+<h3>Orbit Plots</h3>
+<p align="center">
+<a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Orbit%20Plots.ipynb">
+<img src="plots/orbits.png?raw=true" alt="Plot MMS Orbits" width="800">
+</a>
+</p>
