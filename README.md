@@ -91,3 +91,10 @@ Examples of using pySPEDAS to access MMS data
 <img src="plots/orbits.png?raw=true" alt="Plot MMS Orbits" width="800">
 </a>
 </p>
+
+<h3>Active Spacecraft Potential Control (ASPOC)</h3>
+<p align="center">
+<a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Active%20Spacecraft%20Potential%20Control%20(ASPOC).ipynb">
+<img src="plots/aspoc.png?raw=true" alt="Loading MMS ASPOC data" width="800">
+</a>
+</p>
