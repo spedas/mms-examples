@@ -67,7 +67,7 @@ Examples of using pySPEDAS to access MMS data
 <h3>Hot Plasma Composition Analyzer (HPCA)</h3>
 <p align="center">
 <a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Hot%20Plasma%20Composition%20Analyzer%20(HPCA).ipynb">
-<img src="plots/hpca.png?raw=true" alt="Loading MMS HPCA data" width="800">
+<img src="plots/hpca.png?raw=true" alt="Loading MMS HPCA data">
 </a>
 </p>
 
