@@ -46,7 +46,7 @@ Examples of using pySPEDAS to access MMS data
 <h3>Fly's Eye Energetic Particle Sensor (FEEPS)</h3>
 <p align="center">
 <a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Fly's%20Eye%20Energetic%20Particle%20Sensor%20(FEEPS).ipynb">
-<img src="plots/feeps.png?raw=true" alt="Loading MMS FEEPS data" width="800">
+<img src="plots/feeps.png?raw=true" alt="Loading MMS FEEPS data">
 </a>
 </p>
 
