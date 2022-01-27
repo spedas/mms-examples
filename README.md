@@ -4,7 +4,7 @@ Examples of using pySPEDAS to access MMS data
 <h3>Fluxgate Magnetometer (FGM)</h3>
 <p align="center">
 <a href="https://nbviewer.jupyter.org/github/spedas/mms-examples/blob/master/basic/Fluxgate%20Magnetometer%20(FGM).ipynb">
-<img src="plots/fgm.png?raw=true" alt="Loading MMS FGM data" width="800">
+<img src="plots/fgm.png?raw=true" alt="Loading MMS FGM data">
 </a>
 </p>
 
