@@ -10,7 +10,7 @@
 
 # 2. loading MMS data
 
-from pyspedas.mms import mms_load_fgm, mms_load_eis
+from pyspedas.projects.mms import mms_load_fgm, mms_load_eis
 
 mms_load_fgm(trange=['2015-10-16', '2015-10-17'])
 
@@ -23,7 +23,7 @@ from pytplot import tplot_names
 
 tplot_names()
 
-from pyspedas.mms import mms_load_fpi, mms_load_eis
+from pyspedas.projects.mms import mms_load_fpi, mms_load_eis
 
 ###############################################################
 # 3. plotting MMS data
@@ -34,7 +34,7 @@ tplot('mms1_fgm_b_gsm_srvy_l2')
 
 tplot(['mms4_epd_eis_brst_phxtof_proton_flux_omni', 'mms4_epd_eis_brst_extof_proton_flux_omni'])
 
-from pyspedas.mms import mms_load_fpi
+from pyspedas.projects.mms import mms_load_fpi
 
 mms_load_fpi(probe='4', data_rate='brst', datatype='des-moms', trange=['2015-10-16/13:00', '2015-10-16/13:10'])
 
