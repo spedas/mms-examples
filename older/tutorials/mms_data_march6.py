@@ -52,7 +52,7 @@ Load routines:
         ASPOC: Active Spacecraft Potential Control
 
 ========================================================================== ''' 
-from pyspedas.mms import mms_load_mec
+from pyspedas.projects.mms import mms_load_mec
 
 # start by loading some ephemeris / coordinates data;
 # the default trange is Oct 16, 2015, default probe is 1
@@ -62,7 +62,7 @@ mms_load_mec(probe=4)
 # find info on a load routine
 help(mms_load_mec)
 
-from pyspedas.mms import mms_load_fgm
+from pyspedas.projects.mms import mms_load_fgm
 
 # note that the keywords are the same as in IDL
 mms_load_fgm(probe='4', data_rate='brst', trange=['2015-10-16/13:06', '2015-10-16/13:07'], time_clip=True)
@@ -71,7 +71,7 @@ mms_load_fgm(probe='4', data_rate='brst', trange=['2015-10-16/13:06', '2015-10-1
 from pytplot import tplot_names
 tplot_names()
 
-from pyspedas.mms import mms_load_edp
+from pyspedas.projects.mms import mms_load_edp
 
 # load some burst mode electric field data
 mms_load_edp(probe='4', data_rate='brst', trange=['2015-10-16/13:06', '2015-10-16/13:07'], time_clip=True)
@@ -84,7 +84,7 @@ dce_vars = tnames('*_edp_dce_*')
 
 # trange also accepts datetime objects
 # note: be aware of potential time zone issues
-from pyspedas.mms import mms_load_fpi
+from pyspedas.projects.mms import mms_load_fpi
 from datetime import datetime
 from datetime import timezone as tz
 
@@ -123,7 +123,7 @@ store_data('b_vector', data={'x': times, 'y': fgm_data[:, 0:3]})
 store_data('b_mag', data={'x': times, 'y': fgm_data[:, 3]})
 
 # the keywords are very flexible, e.g.,
-from pyspedas.mms import mms_load_hpca, mms_load_eis, mms_load_feeps, mms_load_aspoc
+from pyspedas.projects.mms import mms_load_hpca, mms_load_eis, mms_load_feeps, mms_load_aspoc
 
 # specify multiple probes as integers, and multiple datatypes
 mms_load_hpca(probe=[1, 2, 4], data_rate='brst', datatype=['moments', 'ion'], trange=['2015-10-16/13:06', '2015-10-16/13:07'])
